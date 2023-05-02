@@ -1,6 +1,6 @@
 const io = require("socket.io")(9000, {
     cors: {
-        origin: "http://localhost:3000"
+        origin: "https://ms-teams-frontend.vercel.app"
     }
 })
 
